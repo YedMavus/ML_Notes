@@ -51,6 +51,7 @@ Inductive learning comes up with a general fucntion from the training examples.
   
   
   
-##Errors
+## Errors
+
 Bias errrors [preference in choosing a hyp thaqt was incorrect] and Varience errors [ wehn we have a small test set, so the model is inconsistent with other training set hypotheses...will be discussed later] These two are basically stating overfitting and under fitting with lot of gargantuan words
 
