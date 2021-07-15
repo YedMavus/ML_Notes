@@ -30,4 +30,4 @@ A ML model consists of a **learner** and a **reasoner**
 3. Choose the class of Function [**How to reperesent the target func**] or the hypothesis language
 4. Choose a learning algorithm to infer the target function
 
-[Note to 2: Richer a representation tougher to learn the model]
+[Note to 2: Richer a representation is, tougher to learn the model]
