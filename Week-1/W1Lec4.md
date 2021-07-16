@@ -58,6 +58,10 @@ If testset is small, the varience increases.
   - Remaining examples used as training data 
 3. Compute average test set score of K Rounds 
 
+Final accuracy is given by average of each of these K Subsets
 
+## Trade off [TLDR]
 
-
+- Always a tradeoff between complex hyp that fits training data well
+- Simpler hypothesis that generalise better
+  - As data amount increases, generalisation error increases
