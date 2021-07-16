@@ -25,11 +25,11 @@ In classification, we define a confusion matrix
 
 Obviously the diagonal elements are either all true or all false
 
-Accuracy = TP + TN/ P + N
+Accuracy = (TP + TN) / (P + N)
 
 \\How many are correctly predicted
 
-Precision = TP/ TP + FP
+Precision = TP/ (TP + FP)
 
 \\Answers how many are correctly positive
 
