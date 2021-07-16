@@ -4,7 +4,7 @@
 * Different types of Features: Categorical vs Contiious Features
 * Supervised Learning
   * Regression vs Classification
-* Bias vs Variencs  
+* Bias vs Varience  
 * Generalisation Performance of A Learning Algorithm
 
 
