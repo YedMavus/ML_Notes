@@ -11,8 +11,8 @@ Given y' = h(x) is a prediction on x and y is the actual value. If y' differs fr
 
 Types of errors:
 - Absoloute error: 
-  - 1/n \sigma{|h(x) - y|}
-- Sum of Square Method: 1/n &sum;{h(x) - y)^2
+  - 1/n &sum;{|h(x) - y|}
+- Sum of Square Method: 1/n &sum;(h(x) - y)<sup>2</sup>
 - Classification error: 1/n &sum; &delta; (h(x),y)
 
 In classification, we define a confusion matrix
