@@ -22,12 +22,17 @@ In classification, we define a confusion matrix
 | Negative | False Negative[FN] | True Negative[TN] |
 | | &sum; = P | &sum; = N |
 
+
 Obviously the diagonal elements are either all true or all false
 
 Accuracy = TP + TN/ P + N
+
 \\How many are correctly predicted
+
 Precision = TP/ TP + FP
+
 \\Answers how many are correctly positive
+
 Recall = TP / P
 
 
