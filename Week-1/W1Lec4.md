@@ -20,7 +20,7 @@ In classification, we define a confusion matrix
 | -- | -- | -- |
 | Positive | True Positive[TP] | False Positive[FP] |
 | Negative | False Negative[FN] | True Negative[TN] |
-| | P | N |
+| | &sum; = P | &sum; = N |
 
 Obviously the diagonal elements are either all true or all false
 
@@ -29,4 +29,12 @@ Accuracy = TP + TN/ P + N
 Precision = TP/ TP + FP
 \\Answers how many are correctly positive
 Recall = TP / P
+
+
 How many of the positive examples are retrieved as positive, also called true positive rate. False positive rate also exists.
+
+Error Got on Sample is called **sample error**. The actual error is called the **true error**.
+
+#### Sample 
+
+True error: 
