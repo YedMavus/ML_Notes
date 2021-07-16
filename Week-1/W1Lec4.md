@@ -10,16 +10,16 @@ These evaluations are done on the training set or even better a seperate test se
 Given y' = h(x) is a prediction on x and y is the actual value. If y' differs from y, we have an error.
 
 Types of errors:
-- Absoloute error: 
-  - 1/n &sum;{|h(x) - y|}
+- Absoloute error: 1/n &sum;{|h(x) - y|}
 - Sum of Square Method: 1/n &sum;(h(x) - y)<sup>2</sup>
 - Classification error: 1/n &sum; &delta; (h(x),y)
 
 In classification, we define a confusion matrix
-|Hyp Class\True Class | Positive | Negative |
-|.|.|.|
-|Positive|True Positive[TP]|False Positive[FP]|
-|Negative| False Negative[FN]| True Negative[TN] |
+
+| Hyp Class\True Class | Positive | Negative |
+| -- | -- | -- |
+| Positive | True Positive[TP] | False Positive[FP] |
+| Negative | False Negative[FN] | True Negative[TN] |
 | | P | N |
 
 Obviously the diagonal elements are either all true or all false
